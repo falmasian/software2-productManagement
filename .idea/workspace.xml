@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46a80316-ca5e-4149-ae6f-e280bae40e9f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2zhMohtf5MRVudJ14GEg1Q9tGIx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ProductServiceUTest.executor": "Run",
+    "JUnit.ProductServiceUTest.testDeleteProduct_success.executor": "Run",
+    "JUnit.ProductServiceUTest.testSearchByStock.executor": "Run",
+    "JUnit.ProductServiceUTest.testUpdateProduct_success.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ProductManagementApplication.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/almas/Desktop/softwareProject2/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductManagementApplication">
+    <configuration name="ProductServiceUTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="productManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.productManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.productManagement" />
+      <option name="MAIN_CLASS_NAME" value="com.productManagement.ProductServiceUTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceUTest.testDeleteProduct_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="productManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.productManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.productManagement" />
+      <option name="MAIN_CLASS_NAME" value="com.productManagement.ProductServiceUTest" />
+      <option name="METHOD_NAME" value="testDeleteProduct_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceUTest.testSearchByStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="productManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.productManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.productManagement" />
+      <option name="MAIN_CLASS_NAME" value="com.productManagement.ProductServiceUTest" />
+      <option name="METHOD_NAME" value="testSearchByStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceUTest.testUpdateProduct_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="productManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.productManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.productManagement" />
+      <option name="MAIN_CLASS_NAME" value="com.productManagement.ProductServiceUTest" />
+      <option name="METHOD_NAME" value="testUpdateProduct_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="productManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.productManagement.ProductManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductServiceUTest.testDeleteProduct_success" />
+        <item itemvalue="JUnit.ProductServiceUTest.testUpdateProduct_success" />
+        <item itemvalue="JUnit.ProductServiceUTest.testSearchByStock" />
+        <item itemvalue="JUnit.ProductServiceUTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46a80316-ca5e-4149-ae6f-e280bae40e9f" name="Changes" comment="" />
+      <created>1752179029564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752179029564</updated>
+      <workItem from="1752179030527" duration="3614000" />
+      <workItem from="1752182660320" duration="2992000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
