@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46a80316-ca5e-4149-ae6f-e280bae40e9f" name="Changes" comment="" />
+    <list default="true" id="46a80316-ca5e-4149-ae6f-e280bae40e9f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/productManagement/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/productManagement/entity/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/productManagement/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/productManagement/facade/InventoryFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/productManagement/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/productManagement/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productManagement/IntegrationTest/InventoryIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productManagement/InventoryServiceUTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/productManagement/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/productManagement/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/productManagement/facade/ProductFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/productManagement/facade/ProductFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/productManagement/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/productManagement/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/productManagement/facade/ProductFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/productManagement/facade/ProductFacade.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +32,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;falmasian&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/falmasian/software2-productManagement.git&quot;,
+    &quot;accountId&quot;: &quot;ea65cfbd-790a-4f3f-a5cd-2646876ba75c&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -29,41 +58,59 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2zhMohtf5MRVudJ14GEg1Q9tGIx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ProductServiceUTest.executor": "Run",
-    "JUnit.ProductServiceUTest.testDeleteProduct_success.executor": "Run",
-    "JUnit.ProductServiceUTest.testSearchByStock.executor": "Run",
-    "JUnit.ProductServiceUTest.testUpdateProduct_success.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ProductManagementApplication.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/almas/Desktop/softwareProject2/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.InventoryServiceUTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceUTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceUTest.testDeleteProduct_success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceUTest.testSearchByStock.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceUTest.testUpdateProduct_success.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ProductManagementApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/almas/Desktop/softwareProject2/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ProductManagementApplication">
+    <configuration name="InventoryServiceUTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="productManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.productManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.productManagement" />
+      <option name="MAIN_CLASS_NAME" value="com.productManagement.InventoryServiceUTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductServiceUTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="productManagement" />
       <extension name="coverage">
@@ -137,6 +184,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InventoryServiceUTest" />
         <item itemvalue="JUnit.ProductServiceUTest.testDeleteProduct_success" />
         <item itemvalue="JUnit.ProductServiceUTest.testUpdateProduct_success" />
         <item itemvalue="JUnit.ProductServiceUTest.testSearchByStock" />
@@ -162,6 +210,8 @@
       <updated>1752179029564</updated>
       <workItem from="1752179030527" duration="3614000" />
       <workItem from="1752182660320" duration="2992000" />
+      <workItem from="1753457773980" duration="2425000" />
+      <workItem from="1753472023241" duration="6000" />
     </task>
     <servers />
   </component>
